@@ -1,0 +1,11 @@
+{
+  "codigo": "PRO005",
+  "nombre": "#(nombre)",
+  "medida": "UND",
+  "marca": "Generico",
+  "categoria": "Repuestos",
+  "precio": "#(precio)",
+  "stock": "#(stock)",
+  "estado": "1",
+  "descripcion": "AMORTIGUADOR PL180"
+}

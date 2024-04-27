@@ -4,6 +4,7 @@ Feature: Certificar end point logueo
     * url 'https://api-ventas.synnexaconsulting.com'
     * def body = call read ('classpath:resources/json/auth/bodyLogin.json')
 
+  @name=login
   Scenario: caso 1 verificar logueo exitoso
     Given path  '/api/login'
     And form field email = 'carlosz@gmail.com'
@@ -24,5 +25,3 @@ Feature: Certificar end point logueo
     And match response.message == "Datos incorrectos"
     Examples:
       |read('classpath:resources/csv/auth/datadrivenlogintest.csv')|
-
-
